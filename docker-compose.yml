@@ -1,0 +1,8 @@
+version: "2"
+
+services:
+  app:
+    image: golang:1.9-stretch
+    volumes:
+      - ./:/go/src/learning-go-lang
+    working_dir: /go/src/learning-go-lang
